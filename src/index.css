@@ -1,0 +1,32 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0f19;
+  overflow-x: hidden;
+}
+
+.player-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease !important;
+}
+
+.player-card:hover {
+  transform: translateY(-10px) scale(1.02) !important;
+  box-shadow: 0 20px 35px rgba(37, 99, 235, 0.25) !important;
+}
+
+.player-card img {
+  transition: transform 0.5s ease !important;
+}
+
+.player-card:hover img {
+  transform: scale(1.08);
+}
